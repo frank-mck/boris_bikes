@@ -1,7 +1,6 @@
 # Boris Bikes 
 
 Makers week 1 afternoon pair programming challenge.
-
 Create a Boris Bike program that lets users dock and release bikes. 22 challenges that build on one another.
 
 # Assignment
@@ -12,8 +11,8 @@ To help structure your work, here are 22 challenges. They all build on one anoth
 
 # Challenges
 
-1.Setting up a Project
-2.Working with User Stories
+1-Setting up a Project
+2-Working with User Stories
 3.From a Domain Model to a Feature Test
 4.Errors are good
 5.From Feature Tests to Unit Tests
