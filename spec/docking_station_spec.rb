@@ -5,6 +5,18 @@ describe DockingStation do
     it { is_expected.to respond_to(:dock).with(1).argument }
     it { is_expected.to respond_to(:bikes) }
 
+    describe '#initialize' do
+    it 'creates an instance of object with a specified capacity' do
+      docking_station = DockingStation.new(40)
+      40.times { docking_station.dock(Bike.new) }
+      expect(docking_station.bikes.length).to eq (40)
+    end
+
+    it 'defaults to 20 if no argument is given' do
+    expect(subject.capacity).to eq(20)
+    end
+end
+
     describe '#release_bike' do
         it 'releases a bike' do
             bike = Bike.new
