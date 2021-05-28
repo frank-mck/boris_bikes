@@ -11,12 +11,12 @@ To help structure your work, here are 22 challenges. They all build on one anoth
 
 # Challenges
 
-1-Setting up a Project
-2-Working with User Stories
-3.From a Domain Model to a Feature Test
-4.Errors are good
-5.From Feature Tests to Unit Tests
-6.Passing your first Unit Test
+- Setting up a Project
+- Working with User Stories
+- From a Domain Model to a Feature Test
+-Errors are good
+-From Feature Tests to Unit Tests
+-Passing your first Unit Test
 -Back to the feature
 -Back to the unit
 -Building a bike
