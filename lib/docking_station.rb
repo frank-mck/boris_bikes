@@ -6,7 +6,7 @@ class DockingStation
     end
 
     def dock(bike)
-      raise 'Docking station full' if @bikes.length > 0
+      raise 'Docking station full' if @bikes.length >= 20
       @bikes.push(bike)
     end
 
