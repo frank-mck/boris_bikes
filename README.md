@@ -65,6 +65,11 @@ git clone https://github.com/frank-mck/boris_bikes.git
 Run feature tests
 ```
 irb
-require './lib/boris_bikes'
+require './lib/docking_station'
+```
+Run rspec tests
+```
+gem install rspec
+rspec
 ```
 
