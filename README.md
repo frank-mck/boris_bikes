@@ -60,5 +60,11 @@ I want to see a bike that has been docked
 
 ## How to use 
 ```
-git clone 
+git clone https://github.com/frank-mck/boris_bikes.git
+```
+Run feature tests
+```
+irb
+require './lib/boris_bikes'
+```
 
